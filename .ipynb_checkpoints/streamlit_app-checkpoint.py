@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
-df = pd.read_csv(r"C:\Users\PUNEETH\OneDrive\Documents\Spotify Recommendation System\spotify_songs.csv")
+df = pd.read_csv(r"spotify_songs.csv")
 
 features = [
 'danceability','energy','loudness','speechiness',
